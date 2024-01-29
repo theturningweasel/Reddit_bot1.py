@@ -2,11 +2,11 @@ import praw
 import random
 import time
 reddit = praw.Reddit(
-    client_id="m5sZph1qcs5jtssshbmLOg",
-    client_secret="nLIt2DzZWcYvVeRczeQiKlP6wgJKmw",
+    client_id="something",
+    client_secret="something",
     user_agent="<console:BotApp:1.0>",
-    username = 'The_epic_Did',
-    password = 'ubn23mlb')
+    username = 'Username',
+    password = 'Password')
 subreddit = reddit.subreddit('ProgrammerHumor')
 python_quotes = ['My favorite language for maintainability is Python.']
 for submission in subreddit.hot(limit = 50):
